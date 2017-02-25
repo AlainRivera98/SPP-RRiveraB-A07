@@ -7,14 +7,18 @@ import java.util.Scanner;
 public class SPPRRiveraBA07 {
 
     public static void main(String[] args) {
+        //se llama a método menú
         menu();
     }
     
     //Método menu: 
     public static void menu(){
         System.out.println("<<Agenda telefónica>>");
+        //Se asigna el valor x al valor que regresa el método asignar tel
         long[]x=asignarTel();
+        //Se manda el valor x al método consultar dato
         consultarDato(x);
+        //Método salir
         salir();
     }
     
