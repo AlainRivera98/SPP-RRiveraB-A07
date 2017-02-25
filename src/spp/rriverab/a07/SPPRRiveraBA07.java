@@ -11,7 +11,7 @@ public class SPPRRiveraBA07 {
         menu();
     }
     
-    //Método menu: 
+    //Método menu: Da el orden en que se deben de ejecutar los métodos, y los va invocando
     public static void menu(){
         System.out.println("<<Agenda telefónica>>");
         //Se asigna el valor x al valor que regresa el método asignar tel
